@@ -10,5 +10,5 @@ np.info(np.add)
 arr = np.zeros(10)
 arr[4] = 1
 print(arr)
-arr = np.arange (10,50)
+arr = np.arange(10,50)
 print(arr)
