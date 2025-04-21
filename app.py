@@ -16,3 +16,6 @@ arr = np.arange(0,10)
 print(arr[::-1])
 arr = np.arange(0,9)
 print(np.reshape(arr, (3,3)))
+l = [1,2,0,0,4,0]
+arr = np.array(l)
+print(np.nonzero(arr))
