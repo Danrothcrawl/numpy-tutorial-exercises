@@ -37,9 +37,22 @@
 # matrix[1:-1,1:-1] = "0"
 
 # print(matrix)
-import numpy as np
+# import numpy as np
 
-matrix = np.ones((3,3))
-padded_matrix = np.pad(matrix, pad_width=1)
+# matrix = np.ones((3,3))
+# padded_matrix = np.pad(matrix, pad_width=1)
 
-print(padded_matrix)
+# print(padded_matrix)
+# import numpy as np
+
+# print(0 * np.nan)
+# print(np.nan == np.nan)
+# print(np.inf > np.nan)
+# print(np.nan - np.nan)
+# print(np.nan in set([np.nan]))
+# print(0.3 == 3 * 0.1)
+# import numpy as np
+
+# matrix = np.arange(0,9).reshape(3,3)
+
+# print(np.diag(matrix))
