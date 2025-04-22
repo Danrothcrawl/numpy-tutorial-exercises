@@ -27,7 +27,19 @@
 # print(np.max(arr))
 # arr = np.random.random(10)
 # print(arr.mean())
+# import numpy as np
+
+# arr = np.random.random(10)
+# print(arr.mean())
+# import numpy as np
+
+# matrix = np.ones((5,5))
+# matrix[1:-1,1:-1] = "0"
+
+# print(matrix)
 import numpy as np
 
-arr = np.random.random(10)
-print(arr.mean())
+matrix = np.ones((3,3))
+padded_matrix = np.pad(matrix, pad_width=1)
+
+print(padded_matrix)
